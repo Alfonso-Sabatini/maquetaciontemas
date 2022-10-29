@@ -464,11 +464,13 @@ header h1{
 }
 
 @media screen and (max-width: 480px){
-    body{
-        background-color: aqua;
-    }
 
     header{
+        width: 90%;
+    }
+
+    .ancho{
+        align-items: center;
         width: 90%;
     }
 
@@ -521,7 +523,7 @@ header h1{
     .seccion3{
         flex-direction: column;
         align-items: center;
-        width: 90%;
+        width: 100%;
     }
 
     .precios{
@@ -534,7 +536,24 @@ header h1{
     .price{
         width: 90%;
         align-items: center;
+        margin-bottom: 30px;
     }
+
+    .paquete{
+        width: 90%;
+        align-items: center;
+    }
+
+    .mes{
+        width: 90%;
+        align-items: center;
+    }
+
+    .caracteristicas{
+        width: 90%;
+        align-items: center;
+    }
+
 
     .seccion4{
         flex-direction: column;
