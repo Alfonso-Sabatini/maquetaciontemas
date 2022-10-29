@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.ancho{
+    max-width: 1200px;
+    margin: auto;
+    /* border: 1px red solid; */
+}
+
+header{
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+header p{
+    color: #F23558;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+header h1{
+    font-weight: lighter;
+}
+
+.linea{
+    border-top: 2px #F23558 solid;
+    width: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.seccion1{
+    /* border: 1px red solid; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.banner1{
+    background-image: url(imagenes/foto1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 380px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+    background-position: center center;
+}
+
+.banner1:hover .info1{
+    top: 5px;
+}
+
+.info1{
+    background-color: rgba(255, 255, 255, 0.76);
+    width: 370px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top:100%;
+    left: 5px;
+    transition: all 1s;
+}
+
+  .banner2{
+    background-image: url(imagenes/foto2.jpg);
+    background-size: cover;
+    width: 740px;
+    height: 376px;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+    background-position: center center;
+  }
+  
+  .banner2:hover .info2{
+    top: 5px;
+  }
+
+  .info2{
+    background-color: rgba(255, 255, 255, 0.76);
+    width: 730px;
+    height: 366px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top:100%;
+    left: 5px;
+    transition: all 1s;
+}
+
+.banner3{
+    background-image: url(imagenes/foto3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 380px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+    background-position: center center;
+}
+
+.banner3:hover .info1{
+    top: 5px;
+}
+
+.banner4{
+    background-image: url(imagenes/foto4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 380px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+    background-position: center center;
+}
+
+.banner4:hover .info1{
+    top: 5px;
+}
+
+.banner5{
+    background-image: url(imagenes/foto5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 380px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+    background-position: center center;
+}
+
+.banner5:hover .info1{
+    top: 5px;
+}
+
+.banner6{
+    background-image: url(imagenes/foto6.jpg);
+    background-size: cover;
+    width: 740px;
+    height: 376px;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+    background-position: center center;
+  }
+  
+  .banner6:hover .info2{
+    top: 5px;
+  }
+
+.banner7{
+    background-image: url(imagenes/foto7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 390px;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+    background-position: center center;
+}
+
+.banner7:hover .info1{
+    top: 5px;
+}
+
+.lupita{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    /* border: 1px  red solid; */
+    background-color: #F23558;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.seccion2{
+    /* border: 1px red solid; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.titulo{
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    width: 1200px;
+}
+
+.titulo p{
+    color: #F23558;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.titulo h1{
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.fotopersonas{
+    max-width: 280px;
+    /* border: 1px green solid; */
+    padding: 0px;
+}
+
+.fotopersonas img{
+    max-width: 100%;
+}
+
+.fotopersonas h3{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.fotopersonas p{
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 15px;
+    border-bottom: 2px lightgray solid;
+}
+
+.fotos{
+    filter: grayscale(100%);
+    transition: all .5s;
+}
+
+.fotos:hover{
+  filter: grayscale(0%);
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    color: lightgrey;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.seccion3{
+    /* border: 1px red solid; */
+    background-color: #F7F7F7;
+    max-width: 100%;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.precios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.price{
+    width: 380px;
+    border-radius: 5px;
+    background-color: white;
+    /* border: 1px blue solid; */
+    box-shadow: 0px 0px 10px rgb(139, 139, 139);
+    flex-wrap: wrap;
+}
+
+.paquete{
+    padding: 30px;
+    text-align: center;
+}
+
+.paquete h2{
+    font-weight: bold;
+}
+
+.iconoprecio{
+    color: #b6b6b6;
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+.mes{
+    width: 300px;
+    text-align: center;
+    padding: 40px;
+    border-top: 1px lightgray solid;
+    border-bottom: 1px lightgray solid;
+    margin: auto;
+}
+
+.numero{
+    font-weight: bold;
+    font-size: 60px;
+    color: black;
+}
+
+.signodeprecio{
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.permonth{
+    font-size: 16px;
+    color: #F23558;
+    padding-left: 3px;
+}
+
+.caracteristicas{
+    text-align: center;
+    color: #7a7979;
+    padding: 20px;
+}
+
+.caracteristicas p{
+    padding: 10px;
+}
+
+.btncomprar{
+    padding-top: 15px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.btncomprar a{
+    border: 2px #333 solid;
+    padding: 12px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.btncomprar a:hover{
+    opacity: .6;
+}
+
+.seccion4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.contenidoblog{
+    width: 380px;
+    padding: 0px;
+    box-shadow: 0px 0px 6px rgb(139, 139, 139);
+}
+
+.zoom {
+    overflow: hidden;
+  }
+  
+  .zoom img {
+    transform: scale(1);
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+  }
+  .zoom:hover img {
+    width: 100%;
+    height: 100%;
+    transform: scale(2);
+  }
+
+.contenidoblog img{
+    max-width: 100%;
+}
+
+.contenidoblog h4:hover{
+    color: #F23558;
+}
+
+.descripcionfoto{
+    width: 340px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px lightgray solid;
+    margin: auto;
+}
+
+.descripcionfoto p{
+    font-size: 12px;
+}
+
+.rojo{
+    color: #F23558;
+}
+
+.lorem{
+    width: 340px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.read{
+    color: #333;
+    width: 340px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+.read a:hover{
+    opacity: .6;
+}
+
+@media screen and (max-width: 480px){
+    body{
+        background-color: aqua;
+    }
+
+    header{
+        width: 90%;
+    }
+
+    .titulo{
+        width: 90%;
+    }
+
+    .banner1{
+        width: 90%;
+    }
+
+    .info1{
+        width: 97%;
+    }
+
+    .info2{
+        width: 97%;
+    }
+
+    .banner2{
+        width: 90%;
+    }
+
+    .banner3{
+        width: 90%;
+    }
+
+    .banner4{
+        width: 90%;
+    }
+
+    .banner5{
+        width: 90%;
+    }
+
+    .banner6{
+        width: 90%;
+    }
+
+    .banner7{
+        width: 90%;
+    }
+
+    .seccion2{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    .seccion3{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    .precios{
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .price{
+        width: 90%;
+        align-items: center;
+    }
+
+    .seccion4{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        flex-wrap: nowrap;
+    }
+
+    .contenidoblog{
+        width: 90%;
+        margin-bottom: 40px;
+    }
+
+    .descripcionfoto{
+        width: 90%;
+    }
+
+    .lorem{
+        width: 90%;
+    }
+}
